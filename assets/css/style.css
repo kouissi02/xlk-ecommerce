@@ -1,0 +1,27 @@
+body {
+    padding-top: 56px;
+}
+.univers-card {
+    transition: transform 0.3s;
+}
+.univers-card:hover {
+    transform: translateY(-5px);
+}
+.price-section {
+    margin: 15px 0;
+}
+.original-price {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+.current-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.discount-badge {
+    background: #dc3545;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
