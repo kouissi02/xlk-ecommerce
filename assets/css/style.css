@@ -1,3 +1,14 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+button {
+  font-family: "Bitter", serif;
+}
 .search-product svg,
 .account svg {
   width: 30px;
@@ -15,4 +26,27 @@ a.account {
 .navbar-xlk .navbar-nav {
   justify-content: space-between;
   width: 100%;
+}
+
+.owl-carousel.owl-drag .owl-item {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Container principal */
+.owl-section-carousel .owl-stage-outer {
+  overflow: visible;
+  padding: 20px 0; /* Espace pour les éléments agrandis */
+}
+
+/* Éléments de base */
+.owl-section-carousel .owl-item {
+  transition: all 0.4s ease;
+  transform: scale(0.9); /* Taille par défaut réduite */
+}
+
+/* Slide centrale agrandie */
+.owl-section-carousel .owl-item.center {
+  transform: scale(1.1); /* Équivalent à ~36% de plus */
+  z-index: 10; /* Pour superposer les autres slides */
 }
