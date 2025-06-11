@@ -1,27 +1,18 @@
-body {
-    padding-top: 56px;
+.search-product svg,
+.account svg {
+  width: 30px;
 }
-.univers-card {
-    transition: transform 0.3s;
+a.account {
+  display: flex;
+  justify-content: end;
 }
-.univers-card:hover {
-    transform: translateY(-5px);
+.site-logo svg {
+  width: 70px;
 }
-.price-section {
-    margin: 15px 0;
+.site-logo {
+  text-align: center;
 }
-.original-price {
-    text-decoration: line-through;
-    color: #6c757d;
-}
-.current-price {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-.discount-badge {
-    background: #dc3545;
-    color: white;
-    padding: 2px 8px;
-    border-radius: 10px;
-    font-size: 0.8rem;
+.navbar-xlk .navbar-nav {
+  justify-content: space-between;
+  width: 100%;
 }
