@@ -9,9 +9,11 @@ a,
 button {
     font-family: "Bitter", serif;
 }
-p{
+
+p {
     margin: 0;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -203,4 +205,30 @@ ul.section-list li a {
 .product-price.in-discount .price-regular {
     color: #808080;
     text-decoration: line-through;
+}
+
+.product-add-to-cart button,
+.product-add-to-cart a{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #ff801a;
+    color: #ff801a;
+    background: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 15px;
+}
+
+.product-add-to-cart .remove-cart-button {
+    border-color: #ff801a;
+    color: #fff;
+    background: #ff801a;
+
+}
+
+.product-add-to-cart .download-button {
+    border-color: #f2f2f2;
+    color: #000;
+    background: #f2f2f2;
 }
